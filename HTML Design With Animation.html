@@ -1,0 +1,239 @@
+<html>
+<head>
+
+<style>
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: #555;
+  border-radius: 50%;
+  margin-left: 260px;
+  margin-top: -210px;
+}
+
+.parr {
+      width: 200px;
+      height: 100px;
+      transform: skew(39deg);
+      background: red;
+      margin-left: 320px;
+      margin-top: 250px;
+      
+    }
+
+.square {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+  margin-left: 360px;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 100px solid lightgreen;
+	margin-left: 200px;
+	margin-top: -100px;
+}
+
+.square1 {
+    height: 150px;
+    width: 160px;
+    background-color: blue;
+    margin-left: 200px;
+    margin-top: -150px;
+}
+
+.square2 {
+    height: 100px;
+    width: 70px;
+    background-color: red;
+    margin-left: 240px;
+    margin-top: 70px;
+}
+.square3 {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    margin-left: 400px;
+    margin-top: -120px;
+}
+.square4 {
+    height: 70px;
+    width: 10px;
+    background-color: blue;
+    margin-left: 430px;
+    margin-top: -70px;
+}
+
+.rectangle {
+    height: 10px;
+    width: 70px;
+    background-color: blue;
+    margin-left: 400px;
+    margin-top: -38px;
+}
+
+
+.curve{
+  
+    width:50px;
+    height:150px;
+    border-bottom:2px solid red;
+    border-right:2px solid red;
+    border-bottom-right-radius:90px;
+    float:left;
+    margin-left:258px;
+    margin-top: 78px;
+}
+
+
+.curve1{
+    
+    width:100px;
+    height:150px;
+    border-bottom:2px solid red;
+    border-right:2px solid red;
+    border-bottom-right-radius:90px;
+    float:left;
+    margin-left:-170px;
+    margin-top: 78px;
+}
+
+.river {
+      width: 400px;
+      height: 344px;
+      transform: skew(-49deg);
+      background: #99ccff;
+      margin-left: 620px;
+      margin-top: 30px;
+      
+}
+
+
+.sun{
+
+  height: 100px;
+  width: 100px;
+  background-color: #ff8c1a;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px #ff8c1a;
+  margin-top: -230px;
+   
+  animation: sunset 10s forwards;
+  animation-direction: alternate;
+    
+}
+@keyframes sunset{
+  50%{
+   transform: translate(500px, -200px);}
+  
+  100%{
+   transform: translate(1000px, 130px);}
+  animation-delay: 10s;   
+}
+
+.moon{
+
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 70px 20px #ebebe0;
+  float:left;
+  margin-top: -100px;
+  margin-left: 700px;
+  animation: moonrise 10s forwards;
+  animation-direction: alternate;
+  animation-iteration-count: 1; 
+  animation-delay: 10s;
+ 
+}
+@keyframes moonrise{
+  50%{
+   transform: translate(-500px, -300px);}
+   
+100%{
+   transform: translate(-1000px, -100px);}
+
+}
+
+.triangle-up1
+{
+   width: 15;
+   height: 0;
+   border-left: 120px solid transparent;
+   border-right: 120px solid transparent;
+   border-bottom: 180px solid #e64d00;
+   margin-top: -150px;
+   margin-left: -32px;
+  position: absolute;
+   
+}
+
+.triangle-up2
+{
+   width: 15;
+   height: 0;
+   border-left: 120px solid transparent;
+   border-right: 120px solid transparent;
+   border-bottom: 180px solid #e64d00;
+   margin-top: -150px;
+   margin-left: -110px;
+   position: absolute;
+}
+
+@keyframes example {
+ 0%   {background-color:#ffba66;}
+  10%  {background-color:skyblue;}  
+  25%  {background-color:skyblue;}
+  40%  {background-color:#ffba66;}
+  50%  {background-color:black;}
+  100%  {background-color:black;}
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+<div  style="border:2px green;
+margin-top: 00px;
+background-color: green;
+width:1300px;height:700px"
+>
+
+<div  style="border:1px solid blue;
+background-color: #ffba66;
+animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
+
+width:1300px;height:320px"
+>
+
+
+
+
+<div class = "parr"></div>
+<div class = "triangle-up"></div>
+<div class="square"></div>
+<div class="square1"></div>
+<div class = "circle"></div>
+<div class="square2"></div>
+<div class="square3"></div>
+<div class="square4"></div>
+<div class="rectangle"></div>
+<div class="curve"></div>
+<div class="curve1"></div>
+<div class="sun"></div>
+<div class="moon"></div>
+<div class = "triangle-up1"></div>
+<div class = "triangle-up2"></div>
+<div class="river"></div>
+</body>
+</html> 
